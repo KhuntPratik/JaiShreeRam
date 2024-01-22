@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.header {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.header img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-top:7%;
+}
+
+.video-container {
+
+    padding: 10px;
+    background-color: #500603;
+}
+
+#videoLogo {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 5px;
+}
+
+.text-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #500603;
+
+}
+
+.text-container p {
+    box-shadow: 0 0 10px #ffd34d;
+    margin: 10px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 10px;
+    text-align: center;
+    font-family: 'Hind Vadodara', sans-serif;
+    font-weight: bold;
+    background-color: #ffa64d;
+
+}
+
+
+#muteButton {
+    background-color: #feaa00;
+    border: 1px solid;
+    border-radius: 50%;
+    color: black;
+    cursor: pointer;
+    font-size: 15px;
+    padding: 10px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+.multi-photos {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /* background-color:#feaa00; */
+
+
+}
+
+.photo {
+    width: 125px;
+    height: 125px;
+    margin: 5px;
+    margin-bottom: 10px;
+}
+
+.photo img {
+    border-radius: 20px;
+    width: 125px;
+    height: 125px;
+    box-shadow: 0 0 10px #feaa00;
+
+
+}
+
+.text {
+    margin-top: 0px;
+    background-color: #500603;
+    position: fixed;
+    font-size: large;
+    text-align: center;
+    color: aliceblue;
+    padding-bottom: 10px;
+    font-family: 'Akshar', sans-serif;
+    width: 100%;
+
+}
+
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5%;
+    background-color:aliceblue;
+}
+
+
+
+.footer1 img  {
+    width: 30%;
+    height: 5%;
+}
+
+
+.text2{
+   margin-top: -10%;
+   color: aliceblue;
+   text-align: center;
+   padding-bottom: 20px;
+
+}

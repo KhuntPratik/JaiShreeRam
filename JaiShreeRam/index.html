@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jai Shree Ram</title>
+    <link rel="icon" type="image/x-icon" href="image\title.png">
+
+    <link rel="stylesheet" href="index.css">
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Akshar" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Hind Vadodara" rel="stylesheet" type="text/css">
+
+
+
+</head>
+
+<div class="text">
+    Wishes From Bhagvati Auto Point 
+    </div>
+
+<body>
+    <div class="header">
+        <img src="image\ayodhya-ram-mandir.jpg" alt="Header Image">
+    </div>
+
+    <!-- <h2>જય શ્રી રામ</h2> -->
+
+    <div class="video-container">
+        <video id="videoLogo" autoplay muted loop>
+            <source src="image\Video by ayodhya.view (1) (1).mp4" type="video/mp4">
+        </video>
+    </div>
+
+
+
+    <!-- Background music -->
+    <audio id="backgroundMusic" autoplay loop>
+        <source src="image\bg.mp3" type="audio/mp3">
+    </audio>
+
+
+    <div class="text-container">
+        <p>
+            જેનું નામ રામ છે <br>અયોધ્યા તેમનું ધામ છે<br>આવા રઘુવીરને<br>વારંવાર નમસ્કાર કરું છું.<br>શ્રી રામ મંદિર પ્રાણ પ્રતિષ્ઠા મહોત્સવની હાર્દિક શુભકામનાઓ
+        </p>
+    </div>
+
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#500603" fill-opacity="1" d="M0,160L80,144C160,128,320,96,480,117.3C640,139,800,213,960,229.3C1120,245,1280,203,1360,181.3L1440,160L1440,0L1360,0C1280,0,1120,0,960,0C800,0,640,0,480,0C320,0,160,0,80,0L0,0Z"></path></svg>
+
+    <div class="multi-photos">
+        <div class="photo"><img src="image\ram1.jpeg" alt=""></div>
+        <div class="photo"><img src="image\ram2.jpg" alt=""></div>
+        <div class="photo"><img src="image\ram3.jpeg" alt=""></div>
+        <div class="photo"><img src="image\ram4.jpg" alt=""></div>
+    </div>
+
+    
+
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#500603" fill-opacity="1" d="M0,96L60,85.3C120,75,240,53,360,74.7C480,96,600,160,720,160C840,160,960,96,1080,69.3C1200,43,1320,53,1380,58.7L1440,64L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"></path></svg>
+
+    <div class="text2">
+        Wishes From Bhagvati Auto Point 
+        </div>
+
+<footer class="footer1">
+   <img src="logo_footer.png" alt="">
+</footer>
+
+
+
+
+    <button id="muteButton">
+        <i class="fas fa-volume-mute"></i>
+    </button>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/js/all.min.js"></script>
+    <script>
+
+        document.addEventListener("DOMContentLoaded", function () {
+            // Mute button
+            const muteButton = document.getElementById("muteButton");
+            const backgroundMusic = document.getElementById("backgroundMusic");
+
+            console.log("Window Loaded");
+
+            muteButton.addEventListener("click", function () {
+                if (backgroundMusic.paused) {
+                    backgroundMusic.play();
+                    muteButton.innerHTML = '<i class="fas fa-volume-up"></i>';
+                } else {
+                    backgroundMusic.pause();
+                    muteButton.innerHTML = '<i class="fas fa-volume-mute"></i>';
+                }
+            });
+        });
+
+
+    </script>
+
+</body>
+
+</html>
